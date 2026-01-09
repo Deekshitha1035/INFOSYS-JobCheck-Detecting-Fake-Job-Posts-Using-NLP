@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- ADMIN CSS INLINE -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f6fa;
+      margin: 0;
+      padding: 20px;
+      color: #2f3640;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      font-size: 28px;
+    }
+
+    .header button {
+      padding: 8px 16px;
+      font-size: 16px;
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .header button:hover {
+      background-color: #c0392b;
+    }
+
+    .dashboard-container h3 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #34495e;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    table th, table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+      background-color: #3498db;
+      color: white;
+    }
+
+    table tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .export-btn {
+      margin-bottom: 10px;
+      padding: 6px 12px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .export-btn:hover {
+      background-color: #1e8449;
+    }
+
+    /* Chart wrappers to control size */
+    .chart-container {
+      width: 400px;   /* smaller width */
+      height: 250px;  /* smaller height */
+      margin-bottom: 40px;
+    }
+
+    canvas {
+      background-color: white;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>📊 Admin Dashboard</h1>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <div class="dashboard-container">
+
+    <!-- PREDICTION HISTORY -->
+    <h3>Prediction History</h3>
+    <button class="export-btn" onclick="exportCSV()">Export CSV</button>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User</th>
+          <th>Prediction</th>
+          <th>Confidence</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody id="historyTable"></tbody>
+    </table>
+
+    <!-- STATS CHART -->
+    <h3>Fake vs Real</h3>
+    <div class="chart-container">
+      <canvas id="statsChart"></canvas>
+    </div>
+
+    <!-- DAILY CHART -->
+    <h3>Daily Predictions</h3>
+    <div class="chart-container">
+      <canvas id="dailyChart"></canvas>
+    </div>
+
+    <!-- CONFIDENCE CHART -->
+    <h3>Confidence Distribution</h3>
+    <div class="chart-container">
+      <canvas id="confidenceChart"></canvas>
+    </div>
+
+  </div>
+
+  <!-- ADMIN JS -->
+  <script src="admin.js"></script>
+</body>
+</html>

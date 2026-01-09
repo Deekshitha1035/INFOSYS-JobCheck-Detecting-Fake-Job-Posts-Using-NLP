@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fake Job Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🛡 Fake Job Detection System</h1>
+  <p class="subtitle">AI-powered job authenticity verification</p>
+
+  <textarea id="jobText" placeholder="Paste job description here..."></textarea>
+
+  <div class="buttons">
+    <button onclick="predict()">Analyze</button>
+    <button class="clear" onclick="clearText()">Clear</button>
+  </div>
+
+  <div id="result" class="result hidden"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+print("FastAPI main")

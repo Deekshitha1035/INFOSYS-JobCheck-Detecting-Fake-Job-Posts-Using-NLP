@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up - Fake Job Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Sign Up</h1>
+  <input type="text" id="signupUsername" placeholder="Username">
+  <input type="password" id="signupPassword" placeholder="Password">
+  <button onclick="signup()">Sign Up</button>
+  <p id="signupMessage"></p>
+  <p>Already have an account? <a href="login.html">Login</a></p>
+</div>
+
+<script>
+async function signup() {
+    const username = document.getElementById("signupUsername").value;
+    const password = document.getElementById("signupPassword").value;
+
+    try {
+        const response = await fetch("http://127.0.0.1:8000/signup", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({username, password})
+        });
+        const data = await response.json();
+        if(response.ok){
+            alert("Sign Up Successful! Please login.");
+            window.location.href = "login.html";
+        } else {
+            document.getElementById("signupMessage").innerText = data.detail || "Signup failed!";
+        }
+    } catch(err) {
+        console.error(err);
+        document.getElementById("signupMessage").innerText = "Failed to connect to backend";
+    }
+}
+</script>
+</body>
+</html>
