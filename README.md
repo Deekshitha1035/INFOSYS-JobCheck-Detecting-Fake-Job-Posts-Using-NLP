@@ -115,8 +115,10 @@ Fake Job
 ## 📸 Project Screenshots
 
 ### 🏠 
-![Signup](<img width="1366" height="768" alt="2026-01-09 (1)" src="https://github.com/user-attachments/assets/3e5d7975-8e41-4c51-b427-49130fa11649" />)
-![Loginin](<img width="1366" height="768" alt="2026-01-09 (2)" src="https://github.com/user-attachments/assets/d903ec65-7ed8-4053-bce0-f9ca66cf53fa" />)
+![Signup](<img width="1366" height="768" alt="2026-01-09 (1)" src="https://github.com/user-attachments/assets/62982637-2e21-4962-92a7-d10da5188bdc" />
+)
+![Loginin](<img width="1366" height="768" alt="2026-01-09 (2)" src="https://github.com/user-attachments/assets/15b0759b-c1b8-4951-a1b3-9eaf4f5cc03d" />
+)
 
 
 ### 🔍 Job Prediction Result
