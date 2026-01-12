@@ -115,16 +115,20 @@ Fake Job
 ## 📸 Project Screenshots
 
 ### 🏠 
-![Signup](https://1drv.ms/i/c/a0e59f011cf5dcf9/IQBWVhsF4BMARbFYxDnKFKBZAUXEQgcIVqrZnHTV35U9s9M?e=ldraEb)
-![Loginin]((https://1drv.ms/i/c/a0e59f011cf5dcf9/IQBswi3Z5GlsQbOks6z8TeTFAYEHFh3OJVm6CBm-X3pdkwI?e=rBYnyU)))
+![Signup](<img width="1366" height="768" alt="2026-01-09 (1)" src="https://github.com/user-attachments/assets/3e5d7975-8e41-4c51-b427-49130fa11649" />)
+![Loginin](<img width="1366" height="768" alt="2026-01-09 (2)" src="https://github.com/user-attachments/assets/d903ec65-7ed8-4053-bce0-f9ca66cf53fa" />)
 
 
 ### 🔍 Job Prediction Result
-![Prediction](](https://1drv.ms/i/c/a0e59f011cf5dcf9/IQBONdhsFY_QQ6dieQCvXYEiAWzE0JFwDSC2TK38SePRBQQ?e=9UN9wX),<img width="1366" height="768" alt="2026-01-09 (5)" src="https://github.com/user-attachments/assets/8bd8cc3c-654c-40f9-bffa-74601f3f19c5" />
+![Prediction](<img width="1366" height="768" alt="2026-01-09 (4)" src="https://github.com/user-attachments/assets/54bc9a5a-cf9b-4c5c-906b-476c9629709e" />
+,<img width="1366" height="768" alt="2026-01-09 (5)" src="https://github.com/user-attachments/assets/8bd8cc3c-654c-40f9-bffa-74601f3f19c5" />
 )
 
 ### 📊 Admin Dashboard
-![Admin Dashboard](images/admin-dashboard.png)
+![Admin Dashboard](<img width="1366" height="768" alt="2026-01-09 (6)" src="https://github.com/user-attachments/assets/273da0bd-0184-4a6d-acc9-be83d75e4d4a" /> ,<img width="1366" height="768" alt="2026-01-09 (7)" src="https://github.com/user-attachments/assets/5c44d4f2-5101-4c87-b687-8a12e2a7ae0a" /> ,<img width="1366" height="768" alt="2026-01-09 (8)" src="https://github.com/user-attachments/assets/fcb6ceec-b4a3-4506-98f8-5fa2ec18a8e8" />
+
+
+)
 
 
 🔒 Security Features
