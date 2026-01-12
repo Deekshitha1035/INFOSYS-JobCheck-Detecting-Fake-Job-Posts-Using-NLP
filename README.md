@@ -131,23 +131,32 @@ Real Job
 Fake Job
 ## 📸 Project Screenshots
 
-### 🏠 
-![Signup](<img width="1366" height="768" alt="2026-01-09 (1)" src="https://github.com/user-attachments/assets/62982637-2e21-4962-92a7-d10da5188bdc" />
-)
-![Loginin](<img width="1366" height="768" alt="2026-01-09 (2)" src="https://github.com/user-attachments/assets/15b0759b-c1b8-4951-a1b3-9eaf4f5cc03d" />
-)
+### 🏠 Authentication Pages
 
+#### Signup Page
+<img src="https://github.com/user-attachments/assets/62982637-2e21-4962-92a7-d10da5188bdc" width="800"/>
+
+#### Login Page
+<img src="https://github.com/user-attachments/assets/15b0759b-c1b8-4951-a1b3-9eaf4f5cc03d" width="800"/>
+
+---
 
 ### 🔍 Job Prediction Result
-![Prediction](<img width="1366" height="768" alt="2026-01-09 (4)" src="https://github.com/user-attachments/assets/54bc9a5a-cf9b-4c5c-906b-476c9629709e" />
-,<img width="1366" height="768" alt="2026-01-09 (5)" src="https://github.com/user-attachments/assets/8bd8cc3c-654c-40f9-bffa-74601f3f19c5" />
-)
+
+<img src="https://github.com/user-attachments/assets/54bc9a5a-cf9b-4c5c-906b-476c9629709e" width="800"/>
+
+<img src="https://github.com/user-attachments/assets/8bd8cc3c-654c-40f9-bffa-74601f3f19c5" width="800"/>
+
+---
 
 ### 📊 Admin Dashboard
-![Admin Dashboard](<img width="1366" height="768" alt="2026-01-09 (6)" src="https://github.com/user-attachments/assets/273da0bd-0184-4a6d-acc9-be83d75e4d4a" /> ,<img width="1366" height="768" alt="2026-01-09 (7)" src="https://github.com/user-attachments/assets/5c44d4f2-5101-4c87-b687-8a12e2a7ae0a" /> ,<img width="1366" height="768" alt="2026-01-09 (8)" src="https://github.com/user-attachments/assets/fcb6ceec-b4a3-4506-98f8-5fa2ec18a8e8" />
 
+<img src="https://github.com/user-attachments/assets/273da0bd-0184-4a6d-acc9-be83d75e4d4a" width="800"/>
 
-)
+<img src="https://github.com/user-attachments/assets/5c44d4f2-5101-4c87-b687-8a12e2a7ae0a" width="800"/>
+
+<img src="https://github.com/user-attachments/assets/fcb6ceec-b4a3-4506-98f8-5fa2ec18a8e8" width="800"/>
+
 
 
 🔒 Security Features
@@ -180,6 +189,14 @@ See the LICENSE file for details.
 Jilika Deekshitha Sri
 GitHub: Deekshitha1035
 
+## 📘 Project Details
+
+- **Program:** Infosys Springboard Virtual Internship 6.0  
+- **Project Title:** INFOSYS-JobCheck – Detecting Fake Job Posts Using NLP  
+- **Mentor:** *Praveen Kumar*  
+- **Duration:** 8 Weeks
+
+
 ⭐ Acknowledgements
 
 Infosys Springboard Virtual Internship
@@ -187,3 +204,5 @@ Infosys Springboard Virtual Internship
 Open-source NLP and ML libraries
 
 Online datasets for fake job detection
+
+
