@@ -87,29 +87,66 @@ VS Code – Development environment
 Postman – API testing
 
 ##🏗️ System Architecture
+```text
+          ┌────────────┐
+          │  User /    │
+          │   Admin    │
+          └─────┬──────┘
+                │
+                ▼
+     ┌───────────────────────┐
+     │   Web Interface       │
+     │  (HTML, CSS, JS)     │
+     └────────┬─────────────┘
+              │
+              ▼
+     ┌───────────────────────┐
+     │    FastAPI Backend     │
+     │  (JWT Authentication) │
+     └────────┬─────────────┘
+              │
+              ▼
+     ┌───────────────────────┐
+     │    NLP Processing      │
+     │  (Text Cleaning, TF-IDF) │
+     └────────┬─────────────┘
+              │
+              ▼
+     ┌───────────────────────┐
+     │      ML Model          │
+     │ (Logistic Reg / NB)    │
+     └────────┬─────────────┘
+              │
+              ▼
+     ┌───────────────────────┐
+     │  Prediction Result     │
+     │   (Real / Fake)        │
+     └────────┬─────────────┘
+              │
+              ▼
+     ┌───────────────────────┐
+     │       Database         │
+     │       (SQLite)         │
+     └────────┬─────────────┘
+              │
+              ▼
+     ┌───────────────────────┐
+     │   Admin Dashboard      │
+     │    (Chart.js)          │
+     └───────────────────────┘
 
-User / Admin
-     │
-     ▼
-Web Interface (HTML, CSS, JavaScript)
-     │
-     ▼
-FastAPI Backend (JWT Authentication)
-     │
-     ▼
-NLP Processing (Text Cleaning, TF-IDF)
-     │
-     ▼
-ML Model (Logistic Regression / Naive Bayes)
-     │
-     ▼
-Prediction Result (Real / Fake)
-     │
-     ▼
-Database (SQLite)
-     │
-     ▼
-Admin Dashboard (Chart.js Analytics)
+---
+
+### Step 2: Why This Works
+- Triple backticks create a **code block**, which **preserves line breaks and spacing**  
+- Text inside stays **exactly as formatted**  
+- Your flowchart will **no longer collapse into a paragraph**  
+
+---
+
+### Step 3 (Optional): Add a Heading
+```md
+## 🏗️ System Architecture
 
 
 🚀 How to Run the Project
