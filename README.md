@@ -31,41 +31,58 @@ Provide explainable results for predictions
 
 🌐 User-friendly web interface
 
-🛠️ Technologies Used
-🔹 Backend
+🛠️ Tools & Libraries Used
+🔹 Programming Language
 
-Python
+Python – Core language for backend, machine learning, and NLP processing
 
-FastAPI
+🔹 Backend Technologies
 
-Machine Learning (Scikit-learn)
+FastAPI – Backend framework for building RESTful APIs
 
-NLP (TF-IDF / CountVectorizer)
+Uvicorn – ASGI server for running the FastAPI application
 
-JWT Authentication
+JWT (JSON Web Tokens) – Secure authentication and authorization
 
-🔹 Frontend
+🔹 Machine Learning & NLP
 
-HTML
+Scikit-learn – Model training and evaluation
 
-CSS
+TF-IDF Vectorizer – Feature extraction from job descriptions
 
-JavaScript
+Natural Language Processing (NLP) – Text preprocessing and analysis
+
+🔹 Data Processing
+
+Pandas – Data manipulation and analysis
+
+NumPy – Numerical computations
+
+🔹 Frontend Technologies
+
+HTML5 – Structure of the web interface
+
+CSS3 – Styling and layout
+
+JavaScript – Client-side functionality and API integration
 
 🔹 Database
 
-PostgreSQL / SQLite (as applicable)
+SQLite – Storage for users, job data, and prediction results
 
-🔹 Tools & Libraries
+🔹 Visualization
 
-Pandas
+Chart.js – Graphs and analytics in the admin dashboard
 
-NumPy
+🔹 Development & Testing Tools
 
-Scikit-learn
+Git – Version control
 
-Chart.js
+GitHub – Code hosting and collaboration
 
+VS Code – Development environment
+
+Postman – API testing
 🏗️ System Architecture
 
 User submits a job description
