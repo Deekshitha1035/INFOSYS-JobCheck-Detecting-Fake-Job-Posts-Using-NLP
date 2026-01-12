@@ -31,7 +31,7 @@ Provide explainable results for predictions
 
 ⚡ FastAPI backend
 
-🌐 User-friendly web interface
+##🌐 User-friendly web interface
 
 🛠️ Tools & Libraries Used
 🔹 Programming Language
@@ -85,17 +85,65 @@ GitHub – Code hosting and collaboration
 VS Code – Development environment
 
 Postman – API testing
-🏗️ System Architecture
 
-User submits a job description
+##🏗️ System Architecture
 
-Text is preprocessed using NLP techniques
+┌──────────────────┐
+│   User / Admin   │
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│     Web Frontend         │
+│  (HTML, CSS, JavaScript) │
+└────────┬─────────────────┘
+         │  REST API Request
+         ▼
+┌──────────────────────────┐
+│     FastAPI Backend      │
+│  Authentication (JWT)    │
+│  Input Validation        │
+│  API Controller Layer    │
+└────────┬─────────────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│   NLP Processing Layer   │
+│  - Text Cleaning         │
+│  - Tokenization          │
+│  - Stopword Removal      │
+│  - TF-IDF Vectorization  │
+└────────┬─────────────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│  ML Classification Model │
+│  (Logistic Regression /  │
+│   Naive Bayes)           │
+└────────┬─────────────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│     Prediction Output    │
+│   (Real / Fake Job)      │
+└────────┬─────────────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│        Database          │
+│  (SQLite / PostgreSQL)   │
+│  - User Data             │
+│  - Job Descriptions      │
+│  - Prediction Logs       │
+└────────┬─────────────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│     Admin Dashboard      │
+│  Charts & Analytics      │
+│   (Chart.js)             │
+└──────────────────────────┘
 
-ML model predicts Real / Fake
-
-Result is displayed on the UI
-
-Admin dashboard tracks analytics
 
 🚀 How to Run the Project
 1️⃣ Clone the Repository
@@ -181,7 +229,7 @@ Educational institutions
 
 Recruitment platforms
 
-📄 License
+##📄 License
 
 This project is licensed under the MIT License.
 See the LICENSE file for details.
