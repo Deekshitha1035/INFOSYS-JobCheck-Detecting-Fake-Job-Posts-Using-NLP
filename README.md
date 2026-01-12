@@ -1,4 +1,6 @@
-INFOSYS-JobCheck Detecting Fake Job Posts Using NLP
+<h1 align="center">🕵️ INFOSYS-JobCheck Detecting Fake Job Posts Using NLP</h1>
+
+
 📌 Project Overview
 
 In today’s digital era, fake job postings have become a serious threat to job seekers, especially students and fresh graduates. These fraudulent postings often lead to financial loss, identity theft, and emotional distress.
