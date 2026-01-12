@@ -135,20 +135,7 @@ Postman – API testing
      │    (Chart.js)          │
      └───────────────────────┘
 
----
-
-### Step 2: Why This Works
-- Triple backticks create a **code block**, which **preserves line breaks and spacing**  
-- Text inside stays **exactly as formatted**  
-- Your flowchart will **no longer collapse into a paragraph**  
-
----
-
-### Step 3 (Optional): Add a Heading
-```md
-## 🏗️ System Architecture
-
-
+'''
 🚀 How to Run the Project
 1️⃣ Clone the Repository
 git clone https://github.com/Deekshitha1035/INFOSYS-JobCheck-Detecting-Fake-Job-Posts-Using-NLP.git
