@@ -135,7 +135,7 @@ Postman – API testing
      │    (Chart.js)          │
      └───────────────────────┘
 
-'''
+```
 🚀 How to Run the Project
 1️⃣ Clone the Repository
 git clone https://github.com/Deekshitha1035/INFOSYS-JobCheck-Detecting-Fake-Job-Posts-Using-NLP.git
